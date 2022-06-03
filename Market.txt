@@ -1,0 +1,3 @@
+Market           Balance
+pepsi             2000
+cola              1000
