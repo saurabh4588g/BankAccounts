@@ -1,0 +1,32 @@
+git init
+
+git config user.name "username"
+git congig user.email "user email"
+
+git status <working tree>
+
+<stagged phase>
+git add .
+git add file1 file2 file3
+git add file1
+
+<commit/save>
+git commit -m "message"
+
+for pusing into mail remote
+git remote add origin <url>
+git push origin margin
+
+git push -u origin margin // so that no need to write whole again and again
+
+for checking no of branches
+git branch
+git branch "branch name" <creating new branch>
+git checkout <for checking which one branch we are working on>
+git checkout "branch name" <for shift>
+git branch -d "branch name" <for deleting>
+git merge "branch name" <for merging>
+
+for pull
+git clone "url" <for first time>
+git pull origin master
